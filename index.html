@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <style>
+        @font-face {
+            font-family: gilroyl;
+            src: url(Gilroy-Light.ttf);
+        }
+        @font-face {
+            font-family: gilroyb;
+            src: url(Gilroy-ExtraBold.ttf);
+        }
+
+        *{
+            font-family: gilroyl;
+        }
+        .detailsconatiner{
+            background: linear-gradient(to bottom, transparent, rgba(0, 0 ,0 , 0.983));
+        }
+    </style>
+</head>
+<body>
+    <div class="w-full h-screen bg-black">
+        <div class="imagecontainer w-full h-screen relative overflow-hidden">
+            <div class="maincard z-[3] w-[130%] absolute h-[130%] top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">
+                <img class="w-full h-full object-cover" src="" alt="">
+            </div>
+            <div class="incomingcard z-[2] w-[130%] absolute h-[130%] top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">
+                <img class="w-full h-full object-cover" src="" alt="">
+            </div>
+        </div>
+        <div class="absolute top-0 left-0 z-[4] w-full h-screen flex flex-col justify-between">
+            <div class="navbar px-5 py-6 flex items-center justify-between text-white">
+                <div class="profileimg w-[3rem] h-[3rem] rounded-full overflow-hidden">
+                    <img class="w-full h-full object-cover" src="" alt="">
+                </div>
+                <h3 class="text-2xl font-semibold">They like you</h3>
+                <div class="chaticon relative flex items-center justify-center w-[3rem] h-[3rem] rounded-full bg-white/20">
+                    <i class="ri-chat-heart-fill"></i>
+                    <div class="badge w-5 h-5 flex items-center justify-center absolute top-0 right-0 -translate-y-[5px] translate-x-[3px] bg-[#FC5149] rounded-full">
+                        <h5 class="text-xs font-semibold"></h5>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="detailsconatiner w-full">
+                <div class="details px-5 py-6 w-full">
+                    <div class="element location flex gap-4">
+                        <i class="w-[1.7rem] h-[1.7rem] bg-white rounded-full font-semibold flex items-center justify-center ri-corner-left-up-line"></i>
+                        <h3 class="text-white flex items-center justify-center text-[1.1rem] font-semibold"></h3>
+                    </div>
+                    <div class="element name flex text-white gap-5 mt-3">
+                        <h1 class="text-6xl font-semibold tracking-tighter"></h1>
+                        <h1 class="text-6xl opacity-50 font-semibold tracking-tighter"></h1>
+                    </div>
+                    <div class="element tags text-white flex gap-3 mt-4">
+                        
+                    </div>
+                    <div class="element bio text-white/80">
+                        <h3 class="text-2xl font-semibold mt-5">Bio</h3>
+                        <p class="text-lg leading-[1.3rem]"></p>
+                    </div>
+                    <div class="button flex items-start mt-10 gap-3">
+                        <button class="deny py-3 w-1/2 bg-white rounded-md">
+                            <i class="text-3xl font-bold ri-close-fill"></i>
+                        </button>
+                        <button class="accept py-3 w-1/2 bg-[#FC5149] rounded-md">
+                            <i class="text-3xl font-bold text-white ri-heart-2-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
