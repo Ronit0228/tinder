@@ -212,7 +212,17 @@ function clickAble(){
             ease: Power4.easeInOut,
             duration: 1.5
         })
+        gsap.to(".heart",{
+            scale: 1,
+            duration: 0.5
+        })
+        gsap.to(".heart", {
+            scale: 0,
+            duration: 0.5,
+            delay: 1
+        });
     })
+    
 }
 clickAble();
 
