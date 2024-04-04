@@ -80,7 +80,67 @@ let userData = [
         ],
         bio:"Creative soul with a palette of colors, painting stories on canvases and hearts with strokes of imagination.", 
         isFriend: null
-    }
+    },
+    {
+        profilePic:"https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", 
+        displayPic:"https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        pendingMassage:"7", 
+        location:"Saket, Delhi", 
+        name:"Riya", 
+        age:"28", 
+        interest:[
+            {
+                icon:`<i class="ri-music-2-fill"></i>`,
+                interestName: "Music"
+            },
+            {
+                icon:`<i class="ri-book-2-line"></i>`,
+                interestName: "Reading"
+            }
+        ],
+        bio:"Creative soul with a palette of colors, painting stories on canvases and hearts with strokes of imagination.", 
+        isFriend: null
+    },
+    {
+        profilePic:"https://images.unsplash.com/photo-1614204424926-196a80bf0be8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", 
+        displayPic:"https://images.unsplash.com/photo-1614204424926-196a80bf0be8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        pendingMassage:"7", 
+        location:"Gk-II, Delhi", 
+        name:"Sakshi", 
+        age:"25", 
+        interest:[
+            {
+                icon:`<i class="ri-music-2-fill"></i>`,
+                interestName: "Music"
+            },
+            {
+                icon:`<i class="ri-book-2-line"></i>`,
+                interestName: "Reading"
+            }
+        ],
+        bio:"Creative soul with a palette of colors, painting stories on canvases and hearts with strokes of imagination.", 
+        isFriend: null
+    },
+    {
+        profilePic:"https://images.unsplash.com/photo-1527203561188-dae1bc1a417f?q=80&w=1915&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", 
+        displayPic:"https://images.unsplash.com/photo-1527203561188-dae1bc1a417f?q=80&w=1915&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        pendingMassage:"15", 
+        location:"South-Ex, Delhi", 
+        name:"Sakshi", 
+        age:"22", 
+        interest:[
+            {
+                icon:`<i class="ri-music-2-fill"></i>`,
+                interestName: "Music"
+            },
+            {
+                icon:`<i class="ri-book-2-line"></i>`,
+                interestName: "Reading"
+            }
+        ],
+        bio:"Creative soul with a palette of colors, painting stories on canvases and hearts with strokes of imagination.", 
+        isFriend: null
+    },
 ];
 
 function select(elem){
